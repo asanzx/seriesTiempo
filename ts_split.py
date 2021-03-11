@@ -2,6 +2,8 @@ import math
 import numpy as np
 import pandas as pd
 
+### YA SE PUEDE UTILIZAR CUALQUIER MODALIDAD ###
+
 def ts_split(X, y, cv=4, test_split=0.3, sliding=False):
     '''
     ts_split()[a][b][c]
